@@ -1,0 +1,494 @@
+@charset "utf-8";
+
+body.dark {
+    background-color: #000;
+    color: #bbb
+}
+
+body.dark ::-webkit-input-placeholder {
+    color: #fff
+}
+
+body.dark :-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+body.dark ::-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+body.dark :-ms-input-placeholder {
+    color: #fff
+}
+
+body.dark ::-ms-input-placeholder {
+    color: #fff
+}
+
+body.dark ::placeholder {
+    color: #fff
+}
+
+body.dark h3 {
+    color: #fff
+}
+
+.waxon_tm_hero .background .rightpart .light {
+    display: block
+}
+
+.waxon_tm_hero .background .rightpart .dark {
+    display: none
+}
+
+body.dark .waxon_tm_hero .background .rightpart .light {
+    display: none
+}
+
+body.dark .waxon_tm_hero .background .rightpart .dark {
+    display: block
+}
+
+.waxon_tm_topbar .logo .dark {
+    display: block
+}
+
+.waxon_tm_topbar .logo .light {
+    display: none
+}
+
+.waxon_tm_topbar_single .logo .dark {
+    display: block
+}
+
+.waxon_tm_topbar_single .logo .light {
+    display: none
+}
+
+.waxon_tm_topbar[data-skin=light] .logo .dark {
+    display: none
+}
+
+.waxon_tm_topbar[data-skin=light] .logo .light {
+    display: block
+}
+
+.waxon_tm_topbar[data-skin=light] .menu .links ul li a {
+    color: #fff
+}
+
+.waxon_tm_topbar[data-skin=light] .wrapper .trigger {
+    background-color: #fff
+}
+
+.waxon_tm_topbar[data-skin=light] .wrapper .trigger:before {
+    background-color: #fff
+}
+
+.waxon_tm_topbar[data-skin=light] .wrapper .trigger:after {
+    background-color: #fff
+}
+
+.waxon_tm_topbar[data-skin=light].animate .logo .dark {
+    display: block
+}
+
+.waxon_tm_topbar[data-skin=light].animate .logo .light {
+    display: none
+}
+
+.waxon_tm_topbar[data-skin=light].animate .menu .links ul li a {
+    color: #000
+}
+
+.waxon_tm_topbar[data-skin=light].animate .wrapper .trigger {
+    background-color: #000
+}
+
+.waxon_tm_topbar[data-skin=light].animate .wrapper .trigger:before {
+    background-color: #000
+}
+
+.waxon_tm_topbar[data-skin=light].animate .wrapper .trigger:after {
+    background-color: #000
+}
+
+body.dark .waxon_tm_topbar .logo .dark {
+    display: none
+}
+
+body.dark .waxon_tm_topbar .logo .light {
+    display: block
+}
+
+body.dark .waxon_tm_topbar_single .logo .dark {
+    display: none
+}
+
+body.dark .waxon_tm_topbar_single .logo .light {
+    display: block
+}
+
+body.dark .waxon_tm_topbar .menu .links ul li a {
+    color: #fff
+}
+
+body.dark .waxon_tm_topbar .wrapper .trigger {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_topbar .wrapper .trigger:before {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_topbar .wrapper .trigger:after {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_topbar_single .menu .links ul li a {
+    color: #fff
+}
+
+body.dark .waxon_tm_topbar_single .wrapper .trigger {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_topbar_single .wrapper .trigger:before {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_topbar_single .wrapper .trigger:after {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_hero .background .leftpart {
+    background-color: #000
+}
+
+body.dark .waxon_tm_hero .content_inner h3 {
+    color: #fff
+}
+
+body.dark .waxon_tm_hero .content_inner h3.stroke {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent
+}
+
+body.dark .waxon_tm_down .line_wrapper:before {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_about .name h3 {
+    color: #fff
+}
+
+body.dark .waxon_tm_about .name h3 .bg {
+    -webkit-text-stroke: 1px #fff
+}
+
+body.dark .waxon_tm_about .name {
+    border-bottom: 1px solid rgba(255, 255, 255, .2)
+}
+
+body.dark .waxon_tm_button a {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff
+}
+
+body.dark .waxon_tm_button a:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff
+}
+
+body.dark .waxon_tm_service ul li .svg {
+    color: #fff
+}
+
+body.dark .waxon_tm_portoflio {
+    background-color: #111
+}
+
+body.dark .waxon_tm_main_title .title h3 .bg {
+    -webkit-text-stroke: 1px #fff
+}
+
+body.dark .waxon_tm_portoflio .portfolio_filter .wrapper .trigger {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_portoflio .portfolio_filter .wrapper .trigger:before {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_portoflio .portfolio_filter .wrapper .trigger:after {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_portoflio .portfolio_filter ul li a {
+    color: #fff
+}
+
+body.dark .waxon_tm_portoflio .portfolio_filter ul li a.current {
+    color: #fff
+}
+
+body.dark .waxon_tm_portoflio .portfolio_inner ul li .title h3 a {
+    color: #fff
+}
+
+body.dark .waxon_tm_portoflio .portfolio_inner ul li .title span a {
+    color: #aebcb9
+}
+
+body.dark .waxon_tm_partners .partners_inner {
+    border-top-color: #ffffff00;
+    border-bottom-color: #121212;
+    border-left-color: #12121200;
+    border-right-color: #12121200
+}
+
+body.dark .waxon_tm_partners ul li {
+    border-color: #121212;
+}
+
+body.dark .waxon_tm_testimonials .quote_list ul li .svg {
+    color: #fff
+}
+
+body.dark .waxon_tm_testimonials .short .author {
+    color: #fff
+}
+
+body.dark .waxon_tm_testimonials .short .job {
+    color: #bbb
+}
+
+body.dark .waxon_tm_news {
+    background-color: #000
+}
+
+body.dark .waxon_tm_news .news_inner ul li .details .title a {
+    color: #fff
+}
+
+body.dark .waxon_tm_read_more a:before {
+    background-color: #fff
+}
+
+body.dark .waxon_tm_read_more a {
+    color: #fff
+}
+
+body.dark .waxon_tm_contact .fields ul li input {
+    background-color: #000;
+    border-color: rgba(255, 255, 255, .2);
+    color: #fff
+}
+
+body.dark .waxon_tm_contact .fields .last textarea {
+    background-color: #000;
+    border-color: rgba(255, 255, 255, .2);
+    color: #fff
+}
+
+body.dark .waxon_tm_copyright {
+    border-top: 1px solid rgba(255, 255, 255, .2)
+}
+
+body.dark .waxon_tm_topbar.animate {
+    background-color: #000;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .06)
+}
+
+body.dark .waxon_tm_topbar_single.animate {
+    background-color: #000;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .06)
+}
+
+body.dark .waxon_tm_portfolio_list .waxon_tm_portoflio {
+    background-color: #000
+}
+
+body.dark .waxon_tm_portfolio_single .main_details .title {
+    color: #fff
+}
+
+body.dark .waxon_tm_portfolio_single .main_details .left .short li span a {
+    color: #fff
+}
+
+body.dark .waxon_tm_portfolio_single .main_details .left .social ul li a {
+    color: #fff
+}
+
+body.dark .waxon_tm_portfolio_single .main_details .right p {
+    color: #aebcb9
+}
+
+body.dark .waxon_tm_portfolio_single .extra_info h3 {
+    color: #fff
+}
+
+body.dark .waxon_tm_portfolio_single .pagination a {
+    color: #fff
+}
+
+body.dark .waxon_tm_portfolio_single .pagination a:before {
+    background: rgba(255, 255, 255, .15)
+}
+
+body.dark .waxon_tm_blog_single .short_info ul li .list_inner a {
+    color: #fff
+}
+
+body.dark .waxon_tm_blog_single .main_infos blockquote {
+    color: #fff
+}
+
+body.dark .waxon_tm_blog_single .tags ul li a {
+    border: 1px solid rgba(255, 255, 255, .15);
+    color: #fff
+}
+
+body.dark .waxon_tm_commentbox_wrap .inner_wrap {
+    background-color: #222
+}
+
+body.dark .waxon_tm_commentbox_wrap .title h3 {
+    color: #fff
+}
+
+body.dark .waxon_tm_commentbox_wrap .wp h3 a {
+    color: #fff
+}
+
+body.dark .waxon_tm_commentbox_wrap .reply_comment_wrap .input_list_wrap .input_row input {
+    color: #fff;
+    border-bottom-color: rgba(255, 255, 255, .3)
+}
+
+body.dark .waxon_tm_commentbox_wrap .reply_comment_wrap .input_list_wrap .input_row textarea {
+    color: #fff;
+    border-bottom-color: rgba(255, 255, 255, .3)
+}
+
+body.dark .cursor-inner {
+    background-color: #fff
+}
+
+body.dark .cursor-inner.cursor-hover {
+    background-color: #fff
+}
+
+body.dark .cursor-outer {
+    border-color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=blue] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=blue] .waxon_tm_button a:hover {
+    border-color: #4169e1
+}
+
+body.dark .waxon_tm_all_wrap[data-color=green] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=green] .waxon_tm_button a:hover {
+    border-color: #66b95c
+}
+
+body.dark .waxon_tm_all_wrap[data-color=brown] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=brown] .waxon_tm_button a:hover {
+    border-color: #ff9800
+}
+
+body.dark .waxon_tm_all_wrap[data-color=pink] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=pink] .waxon_tm_button a:hover {
+    border-color: #ff5e94
+}
+
+body.dark .waxon_tm_all_wrap[data-color=orange] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=orange] .waxon_tm_button a:hover {
+    border-color: #fa5b0f
+}
+
+body.dark .waxon_tm_all_wrap[data-color=black] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=black] .waxon_tm_button a:hover {
+    border-color: #000
+}
+
+body.dark .waxon_tm_all_wrap[data-color=white] .waxon_tm_button a {
+    color: #000
+}
+
+body.dark .waxon_tm_all_wrap[data-color=white] .waxon_tm_button a:hover {
+    border-color: #fff;
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=purple] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=purple] .waxon_tm_button a:hover {
+    border-color: #9200ee
+}
+
+body.dark .waxon_tm_all_wrap[data-color=sky] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=sky] .waxon_tm_button a:hover {
+    border-color: #00d4bd
+}
+
+body.dark .waxon_tm_all_wrap[data-color=cadetBlue] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=cadetBlue] .waxon_tm_button a:hover {
+    border-color: #5e9e9f
+}
+
+body.dark .waxon_tm_all_wrap[data-color=olive] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=olive] .waxon_tm_button a:hover {
+    border-color: #666d41
+}
+
+body.dark .waxon_tm_all_wrap[data-color=crimson] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=crimson] .waxon_tm_button a:hover {
+    border-color: #e54b4b
+}
+
+body.dark .waxon_tm_all_wrap[data-color=red] .waxon_tm_button a {
+    color: #fff
+}
+
+body.dark .waxon_tm_all_wrap[data-color=red] .waxon_tm_button a:hover {
+    border-color: #fe0000
+}
