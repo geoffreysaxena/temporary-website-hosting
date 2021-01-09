@@ -1,3 +1,3 @@
 # Visit: https://geoffreysaxena.github.io
 
-This Repo hosts my GitHub.io Porfolio!
+This Repo hosts my GitHub.io Portfolio!
