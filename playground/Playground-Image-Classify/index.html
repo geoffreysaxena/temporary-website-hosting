@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="Pratik Geoffrey Saxena">
+    <!-- Meta Description -->
+    <meta name="description" content="A personal website built and deployed by Pratik Geoffrey Saxena.">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="portfolio">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Geoffrey | Playground</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <script src="sketch.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h3 align='center' , style="color: #fff">Real Time Image Classification in your browser!</h3>
+    <div id="container">
+        <div id="input" class="tile"></div>
+        <div id="training" class="tile">
+            <div id="inputClass">
+                <div id="userInputClass">
+                    <input id="inputClassName" type="text" placeholder="Class name here">
+                    <input type="color" id="colorClass">
+                </div>
+                <button type="button" onclick="onAddClass()">Add Class</button>
+            </div>
+            <div id="class-cont">
+            </div>
+        </div>
+        <a href="../../playground-dark.html"><button align='center' id="reset" class="playbutton">Playground!</button></a>
+    </div>
+</body>
+
+</html>

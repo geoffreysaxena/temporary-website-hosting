@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="Pratik Geoffrey Saxena">
+    <!-- Meta Description -->
+    <meta name="description" content="A personal website built and deployed by Pratik Geoffrey Saxena.">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="portfolio">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Geoffrey | Playground</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.8.2/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+
+    <script src="regression.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h3 align='center' , style="color: #fff">Polynomial Regression Visualizer!</h3>
+    <div id="cont">
+        <div id="canvas-cont"></div>
+        <div id="interaction">
+            <div id="coeff" class="user-input">
+                <label id="coeffP" for="coeffSlider">Order: 1</label>
+                <input id="coeffSlider" class="slider" type="range" min=1 max=20 step=1 value=1 onchange="updateCoeffs()">
+            </div>
+            <br>
+            <div id="learn" class="user-input">
+                <label id="learnP" for="coeffSlider">Learning rate: 0.1</label>
+                <input id="learnSlider" class="slider" type="range" min=0.01 max=0.9 step=0.01 value=0.1 onchange="updateLearningRate()">
+            </div>
+            <br>
+            <button id="reset" type="button" onclick="reset()">Reset</button>
+            <br>
+            <a href="../../playground-dark.html"><button id="reset" class="playbutton">Playground!</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

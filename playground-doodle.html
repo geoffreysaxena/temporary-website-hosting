@@ -17,12 +17,6 @@
     <!-- Site Title -->
     <title>Geoffrey | Playground</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
-    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
-
-    <script src="playground/sketch.js"></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
@@ -81,13 +75,13 @@
         </div>
 
 
-        <div class="waxon_tm_topbar extra">
+        <div class="waxon_tm_topbar">
             <div class="container">
                 <div class="topbar_inner">
                     <div class="logo">
                         <a href="#">
                             <img class="light" src="img/logo/logo.png" alt="" />
-                            <img class="dark" src="img/logo/dark.png" alt="" />
+                            <img class="dark" src="img/logo/logo.png" alt="" />
                         </a>
                     </div>
                     <div class="menu">
@@ -142,7 +136,7 @@
                 <div class="container bigger">
                     <div class="topbar_in">
                         <div class="logo">
-                            <a href="#"><img src="img/logo/dark.png" alt="" /></a>
+                            <a href="#"><img src="img/logo/logo.png" alt="" /></a>
                         </div>
                         <div class="my_trigger">
                             <div class="hamburger hamburger--collapse-r">
@@ -173,21 +167,42 @@
         <div class="waxon_tm_portfolio_single" data-hero-type="image">
             <div class="hero">
                 <div class="hero_image">
-                    <div class="main" data-img-url="img/slider/1.gif"></div>
+                    <div class="main" data-img-url="img/playground/bg.png"></div>
                 </div>
                 <div class="overlay"></div>
                 <div class="content">
-                    <h3>Classify your Doodle!</h3>
-                    <div id="cont">
-                        <div id="canvas-cont"></div>
-                        <div id="interaction">
-                            <button id="clearBtn" type="button">Clear Canvas</button>
-                            <p><span id="label"></span> (<span id="confidence"></span>%)</p>
+                    <h3>Doodle Classifier</h3>
+                    <span>Try it yourself!</span>
+                </div>
+                <div class="waxon_tm_down" data-skin="light" data-position="center">
+                    <div class="line_wrapper">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_details">
+                <div class="container bigger">
+                    <div class="details_inner">
+                        <div class="left">
+                            <h3 class="title">Details</h3>
+                            <ul class="short">
+                                <li>
+                                    <p><span class="first">Date:</span><span class="second">Jan 12, 2021</span></p>
+                                </li>
+                                <li>
+                                    <p><span class="first">Category:</span><span class="second"><a href="#">Deep Learning</a></span></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <h3 class="title">About the Project</h3>
+                            <p>The project was made with the intention of visualizing Neural Networks, and exploring TensorFlow.js and ml5.js libraries alsong with the p5.js library.</p>
                         </div>
                     </div>
                 </div>
             </div>
-           
+            
 
 
             <div class="container bigger">
@@ -210,6 +225,9 @@
                     <div class="pagination_inner">
                         <div class="prev">
                             <a href="playground-regression.html">Previous Project</a>
+                        </div>
+                        <div class="prev">
+                            <a href="playground/Playground-Doodle/index.html">Go to Project</a>
                         </div>
                         <div class="next">
                             <a href="playground-image-classify.html">Next Project</a>
@@ -265,21 +283,13 @@
                                             <span class="second"><img class="svg" src="img/svg/social/mail.svg" alt="" /></span>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="tel:+91-9890957202" target="_blank">
-                                            <span class="first"><img class="svg" src="img/svg/social/phone.svg" alt="" /></span>
-                                            <span class="second"><img class="svg" src="img/svg/social/phone.svg" alt="" /></span>
-                                        </a>
-                                    </li>
                                 </ul>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
-
         </div>
-
         <div class="mouse-cursor cursor-outer"></div>
         <div class="mouse-cursor cursor-inner"></div>
 

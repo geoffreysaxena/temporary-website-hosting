@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="Pratik Geoffrey Saxena">
+    <!-- Meta Description -->
+    <meta name="description" content="A personal website built and deployed by Pratik Geoffrey Saxena.">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="portfolio">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Geoffrey | Playground</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <script src="sketch.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h3 align='center' , style="color: #fff">Doodle Classifier!</h3>
+    <div id="cont">
+        <br><br>
+        <div id="canvas-cont"></div>
+        <div id="interaction">
+            <button id="clearBtn" class="button">Clear Canvas</button>
+            <p><span id="label"></span> (<span id="confidence"></span>%)</p>
+            <br><br>
+            <a href="../../playground-dark.html"><button id="reset" class="playbutton">Playground!</button></a>
+        </div>
+    </div>
+</body>

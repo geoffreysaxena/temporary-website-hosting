@@ -1,0 +1,136 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cont {
+    margin: auto;
+    text-align: center;
+}
+
+#canvas-cont {
+    margin: 10px auto;
+    max-width: 30%;
+}
+
+#canvas {
+    margin: 20px;
+    border: 1px solid white;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+#interaction {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#interaction label {
+    background-color: white;
+    color: #444;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.slider {
+    margin: 20px 10px;
+    -webkit-appearance: none;
+    width: 50%;
+    height: 5px;
+    background: #fff;
+    outline: none;
+    border-radius: 10px;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    box-shadow: 0 2.5px #666;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #999;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#reset {
+    transition: .1s;
+    padding: 10px 20px;
+    border: 0;
+    background-color: #fff;
+    color: #222;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+#reset:active {
+    transform: translateY(5px);
+}
+
+
+@media (max-width: 1200px) {
+    #canvas-cont {
+        max-width: 40%;
+    }
+
+    #interaction {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #canvas-cont {
+        max-width: 90%;
+    }
+
+    #interaction {
+        width: 80%;
+    }
+
+    .user-input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-input * {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+}
+
+.playbutton {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 13px 50px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid #000;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #fff;
+    margin-bottom: 10px;   
+}

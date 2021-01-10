@@ -534,6 +534,7 @@ img.svg {
 
 .waxon_tm_hero .content_inner span {
     font-family: montserrat;
+    color: #fff;
     font-weight: 600;
     display: inline-block;
     padding-top: 10px
@@ -627,7 +628,7 @@ img.svg {
     clear: both;
     float: left;
     margin-bottom: 193px;
-    padding-top: 280px
+    padding-top: 0px
 }
 
 .waxon_tm_about .about_inner {
@@ -1876,7 +1877,7 @@ body.dark .waxon_tm_partners ul.dark {
 
 .waxon_tm_portfolio_single .hero .content {
     position: absolute;
-    top: 80%;
+    top: 50%;
     width: 100%;
     text-align: center;
     transform: translateY(-50%);
@@ -2009,7 +2010,7 @@ body.dark .waxon_tm_partners ul.dark {
 }
 
 .waxon_tm_portfolio_single .main_details .right p {
-    font-size: 20px;
+    font-size: 15px;
     color: #333
 }
 

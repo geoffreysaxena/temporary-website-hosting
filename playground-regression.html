@@ -17,11 +17,6 @@
     <!-- Site Title -->
     <title>Geoffrey | Playground</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.8.2/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
-
-    <script src="playground/regression.js"></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
@@ -80,13 +75,13 @@
         </div>
 
 
-        <div class="waxon_tm_topbar extra">
+        <div class="waxon_tm_topbar">
             <div class="container">
                 <div class="topbar_inner">
                     <div class="logo">
                         <a href="#">
                             <img class="light" src="img/logo/logo.png" alt="" />
-                            <img class="dark" src="img/logo/dark.png" alt="" />
+                            <img class="dark" src="img/logo/logo.png" alt="" />
                         </a>
                     </div>
                     <div class="menu">
@@ -171,33 +166,41 @@
 
         <div class="waxon_tm_portfolio_single" data-hero-type="image">
             <div class="hero">
+                <div class="hero_image">
+                    <div class="main" data-img-url="img/playground/bg.png"></div>
+                </div>
+                <div class="overlay"></div>
                 <div class="content">
-                    <h3>Polynomial Regression!</h3>
-                    <div id="cont">
-                        <div id="canvas-cont"></div>
-                        <div id="interaction">
-                            <div id="coeff" class="user-input">
-                                <label id="coeffP" for="coeffSlider">Order: 1</label>
-                                <input id="coeffSlider" class="slider" type="range" min=1 max=10 step=1 value=1 onchange="updateCoeffs()">
-                            </div>
-                            <br>
-                            <div id="learn" class="user-input">
-                                <label id="learnP" for="coeffSlider">Learning rate: 0.1</label>
-                                <input id="learnSlider" class="slider" type="range" min=0.01 max=0.5 step=0.01 value=0.1 onchange="updateLearningRate()">
-                            </div>
-                            <br>
-                            <button id="reset" type="button" onclick="reset()">Reset</button>
-                        </div>
+                    <h3>Polynomial Regression</h3>
+                    <span>Visualized!</span>
+                </div>
+                <div class="waxon_tm_down" data-skin="light" data-position="center">
+                    <div class="line_wrapper">
+                        <div class="line"></div>
                     </div>
                 </div>
             </div>
+
             <div class="main_details">
                 <div class="container bigger">
-
+                    <div class="details_inner">
+                        <div class="left">
+                            <h3 class="title">Details</h3>
+                            <ul class="short">
+                                <li>
+                                    <p><span class="first">Date:</span><span class="second">Jan 3, 2021</span></p>
+                                </li>
+                                <li>
+                                    <p><span class="first">Category:</span><span class="second"><a href="#">Machine Learning</a></span></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <h3 class="title">About the Project</h3>
+                            <p>The project was made with the intention of visualizing regression and understanding the core principals involved in finding the best fit for a group of points.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="extra_info">
-
             </div>
             <div class="container bigger">
                 <h3>Dynamic Polynomial Regression Visualizer!</h3>
@@ -214,6 +217,9 @@
                         <div class="prev">
                             <a href="#">Previous Project</a>
                         </div>
+                        <div class="prev">
+                            <a href="playground/Playground-Regression/index.html">Go to Project</a>
+                        </div>
                         <div class="next">
                             <a href="playground-doodle.html">Next Project</a>
                         </div>
@@ -222,7 +228,7 @@
             </div>
         </div>
 
-        <div class="waxon_tm_copyright">
+         <div class="waxon_tm_copyright">
             <div class="container">
                 <div class="copyright_inner">
                     <ul>
@@ -268,12 +274,6 @@
                                             <span class="second"><img class="svg" src="img/svg/social/mail.svg" alt="" /></span>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="tel:+91-9890957202" target="_blank">
-                                            <span class="first"><img class="svg" src="img/svg/social/phone.svg" alt="" /></span>
-                                            <span class="second"><img class="svg" src="img/svg/social/phone.svg" alt="" /></span>
-                                        </a>
-                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -281,7 +281,6 @@
                 </div>
             </div>
         </div>
-
         <div class="mouse-cursor cursor-outer"></div>
         <div class="mouse-cursor cursor-inner"></div>
 
