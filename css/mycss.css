@@ -14,7 +14,7 @@ body {
     word-wrap: break-word;
     font-weight: 400;
     background-color: #fff;
-    color: #333
+    color: #000
 }
 
 svg {
@@ -1090,6 +1090,7 @@ img.svg {
 
 .waxon_tm_portoflio .portfolio_inner ul li .title h3 a {
     margin: 0;
+    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -4276,4 +4277,20 @@ html::-webkit-scrollbar-track {
         font-size: 4vw;
     }
 
+}
+mark {
+    background-color: #F1F1F1;
+    color: black;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
